@@ -26,8 +26,6 @@ stage('Check Environment') {
     bat 'cd java-maven-sonar-argocd-helm-k8s\\spring-boot-app && mvn clean package'
   }
 }
-      }
-    }
     stage('Static Code Analysis') {
       environment {
         SONAR_URL = "http://localhost:9000"
