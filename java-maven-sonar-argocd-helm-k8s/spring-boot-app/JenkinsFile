@@ -67,4 +67,3 @@ git push https://$env:GITHUB_TOKEN@github.com/kavyasreekorada/Jenkins HEAD:main
             }
         }
     }
-  }
